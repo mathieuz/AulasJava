@@ -143,24 +143,52 @@ public class main {
 		
 		
 		
-		int[] arrayInt = new int[5];
-		String[] arrayStr = new String[4];
-		double[] arrayDouble = new double[4];
+//		int[] arrayInt = new int[5];
+//		String[] arrayStr = new String[4];
+//		double[] arrayDouble = new double[4];
 		
-		arrayInt[3] = 4;
+//		arrayInt[3] = 4;
 		
-		int[] num = new int[6];
+//		int[] num = new int[6];
+//		
+//		Scanner scanner = new Scanner(System.in);
 		
-		Scanner scanner = new Scanner(System.in);
+//		for (int aux2 = 0; aux2 < num.length; aux2++) {
+//			System.out.println("Digite um número qualquer:");
+//			num[aux2] = scanner.nextInt();
+//		}
 		
-		for (int aux2 = 0; aux2 < num.length; aux2++) {
-			System.out.println("Digite um número qualquer:");
-			num[aux2] = scanner.nextInt();
+//		for (int aux2 = 0; aux2 < num.length; aux2++) {
+//			System.out.println("Índice " + aux2 + " = " + num[aux2]);
+//		}
+		
+//		int[] arrayQualquer = new int[3]; //Criando array do tipo inteiro
+//		
+//		Object[] arrayObject = new Object[5]; //Criando array do tipo Object
+		
+//		arrayObject[0] = 12;
+//		arrayObject[1] = "Rafael";
+//		arrayObject[2] = 3.4;
+//		arrayObject[3] = true;
+//		arrayObject[4] = arrayQualquer;
+		
+//		for (int aux2 = 0; aux2 < arrayObject.length; aux2++) {
+//			System.out.println("Índice: " +aux2+ " = " +arrayObject[aux2]);
+//		}
+		
+		
+		//Criando uma tabela com matrizes
+		
+		int[][] arrayBidirecional = new int[4][3]; //Criando duas arrays para um mesmo objeto
+		
+		arrayBidirecional[0][0] = 8;
+		arrayBidirecional[2][1] = 7;
+		
+		for (int linha = 0; linha < arrayBidirecional.length; linha++) {
+			for (int coluna = 0; coluna < arrayBidirecional[0].length; coluna++) {
+				System.out.print("Índice [" +linha+ "][" +coluna+ "] = " + arrayBidirecional[linha][coluna]+ " ");
+			}
+			System.out.println("");
 		}
-		
-		for (int aux2 = 0; aux2 < num.length; aux2++) {
-			System.out.println("Índice " + aux2 + " = " + num[aux2]);
-		}
-		
 	}	
 }
