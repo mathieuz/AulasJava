@@ -1,0 +1,2 @@
+Sabonete [cheiro=Neutro, cor=Branco]
+Sabonete [cheiro=Lavanda, cor=Roxo]
