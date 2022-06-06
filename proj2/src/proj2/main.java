@@ -8,24 +8,24 @@ public class main {
 		
 //		int idadep = 19;
 //		
-//		if(idadep < 18) {
-//			System.out.println("Você não tem idade para dirigir.");
+//		if(idadep < 18) {												//VÃ¡rias estruturas de comparaÃ§Ã£o que devolvem mais de um resultado(if/else if)
+//			System.out.println("Vocï¿½ nï¿½o tem idade para dirigir.");
 //		}else if(idadep < 60){
-//			System.out.println("Você tem idade para dirigir.");
+//			System.out.println("Vocï¿½ tem idade para dirigir.");
 //		}else {
-//			System.out.println("Quanto é a sua aposentadoria?");
+//			System.out.println("Quanto ï¿½ a sua aposentadoria?");
 //		}
 //		
-//		System.out.println("Você tem "+idadep+" anos de idade.");
+//		System.out.println("Vocï¿½ tem "+idadep+" anos de idade.");
 		
 //		int n1 = 8;
 //		
-//		switch (n1) {
+//		switch (n1) { //switch seleciona uma variÃ¡vel para comparar entre vÃ¡rias possibilidades finitas.
 //		case 1:
 //			System.out.println("Segunda");
 //			break;
 //		case 2:
-//			System.out.println("Terça");
+//			System.out.println("Terï¿½a");
 //			break;
 //		case 3:
 //			System.out.println("Quarta");
@@ -37,25 +37,25 @@ public class main {
 //			System.out.println("Sexta");
 //			break;
 //		case 6:
-//			System.out.println("Sábado");
+//			System.out.println("Sï¿½bado");
 //			break;
 //		case 7:
 //			System.out.println("Domingo");
 //			break;
 //		default:
-//			System.out.println("Este número não corresponde a um dia da semana.");
+//			System.out.println("Este nï¿½mero nï¿½o corresponde a um dia da semana.");
 //		}
 		
-//		char caractere = 'a';
+//		char caractere = 'a'; //variÃ¡vel do tipo char recebe, entre aspas simples, um digito de caractere como informaÃ§Ã£o.
 //		
 //		switch(caractere) {
 //		case 'a':
-//			System.out.println("Seu caractere é 'a'.");
+//			System.out.println("Seu caractere ï¿½ 'a'.");
 //			break;
 //		case 'b':
-//			System.out.println("Seu caractere é 'b'");
+//			System.out.println("Seu caractere ï¿½ 'b'");
 //		default:
-//			System.out.println("Valor inválido.");
+//			System.out.println("Valor invï¿½lido.");
 //	}
 		
 //		String farol = "amarelo";
@@ -65,36 +65,36 @@ public class main {
 //			System.out.println("Avance.");
 //			break;
 //		case "amarelo":
-//			System.out.println("Atenção!");
+//			System.out.println("Atenï¿½ï¿½o!");
 //			break;
 //		case "vermelho":
 //			System.out.println("Pare!!!");
 //			break;
 //		default:
-//			System.out.println("Cor de farol inválida.");
+//			System.out.println("Cor de farol invï¿½lida.");
 //		}
 		
 //		int x = 0;
 //		
-//		while(x < 100) {
+//		while(x < 100) { //a estrutura 'while' compara e mostra um valor atÃ© atingir uma excessÃ£o
 //			x += 1;
 //			System.out.println(x);
 //		}
 		
 //		int x1 = 0;
 //		
-//		do {
+//		do {	//'do' Ã© semelhante a 'while', mas mostra os resutados antes de comeÃ§ar a comparar os valores.
 //			System.out.println(x1);
 //			x1 += 1;
 //		}while(x1 < 10);
 		
-//		for (int x = 0; x<10; x++) {
+//		for (int x = 0; x<10; x++) { //'for' executa um bloco de comandos em repetiÃ§Ã£o atÃ© chegar a uma excessÃ£o
 //			System.out.println(x);
 //		}
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Digite um número para multiplicar:");
+		System.out.println("Digite um nï¿½mero para multiplicar:");
 		int n1 = scanner.nextInt();
 		
 		for (int x = 0; x < 11; x++) {

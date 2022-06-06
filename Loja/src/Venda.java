@@ -10,7 +10,7 @@ public class Venda {
 		vdesc = (vtotal*15)/100;
 		vtotal = vtotal - vdesc;
 		
-		System.out.println("Valor do Produto 1: R$"+prod1);
+		System.out.println("Valor do Produto 1: R$"+prod1); //Este comando exibe texto e informações de variáveis a partir da concatenação desses elementos.
 		System.out.println("Valor do Produto 2: R$"+prod2);
 		System.out.println("Valor do Desconto: R$"+vdesc);
 		System.out.println("Valor Total: R$"+vtotal);

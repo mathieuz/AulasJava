@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class VendaTop {
 
 	public static void main(String[] args) {
-		int opprod1 = "";
-		int opprod2 = "";
+		int opprod1;
+		int opprod2;
 		double prod1;
 		double prod2;
 		double vtotal;
@@ -12,8 +12,8 @@ public class VendaTop {
 		int control = 0;
 		
 		System.out.println("Escolha dois dos produtos abaixo:");
-		System.out.println("1 - Calça (R$ 25.00) [+ 25% Desconto]");
-		System.out.println("2 - Boné (R$ 40.00)");
+		System.out.println("1 - Calï¿½a (R$ 25.00) [+ 25% Desconto]");
+		System.out.println("2 - Bonï¿½ (R$ 40.00)");
 		System.out.println("3 - Camisa (R$ 35.50)");
 		System.out.println("4 - Sapato (R$ 69.99)");
 		
