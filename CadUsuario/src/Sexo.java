@@ -1,7 +1,7 @@
 
-public enum Sexo {
+public enum Sexo { //enum é um "tipo de classe especial" que define valores finitos possíveis em constantes.
 	
-	MASCULINO(1),
+	MASCULINO(1), //cada constante de um enum deve ser identificada com um valor numérico
 	FEMININO(2);
 	
 	private int sexo;

@@ -5,42 +5,42 @@ public class CalculadoraTop {
 	public static void main(String[] args) {
 		int n1;
 		int n2;
-		String op = ""; //Variável de escolha
-		int control = 0; //Variável de Controle
+		String op = ""; //Variï¿½vel de escolha
+		int control = 0; //Variï¿½vel de Controle
 		
-		Scanner entrada = new Scanner(System.in); //O método Scanner cria um objeto para entrada de informações. 'java.util.Scanner' é necessário.
+		Scanner entrada = new Scanner(System.in); //O mÃ©todo construtor Scanner cria um objeto para entrada de informaÃ§Ãµes. 'java.util.Scanner' ï¿½ necessï¿½rio.
 		
-		System.out.println("Digite a operação desejada (+, -, *, /):");
-		op = entrada.nextLine(); //'next.Line' tratará de absorver a informação, tipicamente do tipo 'String'
+		System.out.println("Digite a operaï¿½ï¿½o desejada (+, -, *, /):");
+		op = entrada.nextLine(); //'next.Line' tratarï¿½ de absorver a informaï¿½ï¿½o, tipicamente do tipo 'String'
 		
 		System.out.println("Digite um valor:");
-		n1 = Integer.parseInt(entrada.nextLine()); //parseInt converte informação em string para um tipo numérico.
+		n1 = Integer.parseInt(entrada.nextLine()); //parseInt converte informaï¿½ï¿½o em string para um tipo numï¿½rico.
 		
 		System.out.println("Digite outro valor:");
 		n2 = Integer.parseInt(entrada.nextLine());
 		
 		if(op.equals("+")) {
-			System.out.println("O resultado da soma é "+(n1+n2));
+			System.out.println("O resultado da soma ï¿½ "+(n1+n2));
 			control++; //Incremento
 		}
 		
 		if(op.equals("-")) {
-			System.out.println("O resultado da subtração é "+(n1-n2));
+			System.out.println("O resultado da subtraï¿½ï¿½o ï¿½ "+(n1-n2));
 			control++; //Incremento
 		}
 		
 		if(op.equals("*")) {
-			System.out.println("O resultado da multiplicação é "+(n1*n2));
+			System.out.println("O resultado da multiplicaï¿½ï¿½o ï¿½ "+(n1*n2));
 			control++; //Incremento
 		}
 		
 		if(op.equals("/")) {
-			System.out.println("O resultado da divisão é "+(n1/n2));
+			System.out.println("O resultado da divisï¿½o ï¿½ "+(n1/n2));
 			control++; //Incremento
 		}
 		
 		if(control == 0) { //
-			System.out.println("Operação inválida, tente novamente.");
+			System.out.println("Operaï¿½ï¿½o invï¿½lida, tente novamente.");
 		}
 	}
 

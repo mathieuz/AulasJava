@@ -3,16 +3,16 @@ public class Lampada {
 	
 	private boolean estaLigada;
 	
-	public Lampada(boolean estaLigada) {
+	public Lampada(boolean estaLigada) { //MÃ©todo com parÃ¢metro de valor booleano, atribui a 'estaLigada' se o valor for 'true'
 		this.estaLigada = true;
 	}
 	
 	
 	public void imprimir() {
 		if (estaLigada == true) {
-			System.out.println("A lâmpada está ligada.");
+			System.out.println("A lï¿½mpada estï¿½ ligada.");
 		}else {
-			System.out.println("A lâmpada está desligada.");
+			System.out.println("A lï¿½mpada estï¿½ desligada.");
 		}
 	}
 	

@@ -3,18 +3,17 @@ public class Calc {
 	
 	double calcarea(double base, double alt) {
 		
-		if (this.alt == this.base) {
+		if (alt == base) { //Estrutura if compara os valores da altura e da base... Se forem iguais, retorna o c√°lculo do quadrado.
 			return alt * alt;
-			System.out.println("A ·rea de um quadrado com base e altura = "+alt+" È "+alt*alt);
 		}
 		
 	}
 	
-	double calcarea(double base, double alt) {
+	double calcarea(double base, double alt) { //calcula area do tri√¢ngulo
 		return base * alt / 2;
 	}
 	
-	double calcarea(double base, double alt) {
+	double calcarea(double base, double alt) { //calcula ret√¢ngulo
 		return base * alt;
 	}
 	

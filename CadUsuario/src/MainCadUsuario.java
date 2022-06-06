@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 		Scanner scan = new Scanner(System.in);
 			
-		List<Pessoa> usuario = new ArrayList<Pessoa>();
+		List<Pessoa> usuario = new ArrayList<Pessoa>(); //LIst<generic> cria uma array a partir de uma array especial das dependências do Java chamada ArrayList."
 		
 		for(Pessoa pessoa : usuario) {
 			

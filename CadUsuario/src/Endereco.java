@@ -5,7 +5,7 @@ public class Endereco {
 	private int num;
 	private String bairro;
 	
-	public String getRua() {
+	public String getRua() { //get é o método de retorno do valor de uma variável, set é o método que atrbui informações as variáveis.
 		return rua;
 	}
 
@@ -31,8 +31,8 @@ public class Endereco {
 	}
 
 	@Override
-	public String toString() {
-		return "\n[Endereco] Rua: " + rua + ", N�mero:" + num + ", Bairro:" + bairro + ".";
+	public String toString() { //override toString retorna informações de uma instância de objeto em um texto personalizado.
+		return "\n[Endereco] Rua: " + rua + ", N�mero:" + num + ", Bairro:" + bairro + ".";
 	}
 	
 }
