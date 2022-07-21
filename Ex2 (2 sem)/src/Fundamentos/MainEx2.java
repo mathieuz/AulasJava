@@ -16,11 +16,11 @@ public class MainEx2 {
 		
 		System.out.println("Digite o valor do desconto:");
 		double desc = scan.nextDouble();
-		calc.setDesc(desc);
+		calc.setNumDesc(desc);
 		
 		scan.close(); //Resolve "calc is never closed".
 		
-		System.out.println("Total R$" + calc.calcularDesconto());
+		System.out.println("Total R$" + String.format("%.2f", calc.calcularDesconto())); //String format retorna um valor double com x casas decimais definidas
 		
 	}
 }

@@ -2,13 +2,13 @@ package Fundamentos;
 
 public class CalculadoraDesconto {
 	double num;
-	double desc;
+	double numdesc;
 	double desconto;
 	double totaldesc;
 	
 	public double calcularDesconto() {
-		desconto = num * desc;
-		totaldesc = desconto - num;
+		desconto = (num * numdesc) / 100;
+		totaldesc = num - desconto;
 		return totaldesc;
 	}
 
@@ -20,12 +20,12 @@ public class CalculadoraDesconto {
 		this.num = num;
 	}
 
-	public double getDesc() {
-		return desc;
+	public double getNumDesc() {
+		return numdesc;
 	}
 
-	public void setDesc(double desc) {
-		this.desc = desc;
+	public void setNumDesc(double numdesc) {
+		this.numdesc = numdesc;
 	}
 	
 }
